@@ -2,5 +2,5 @@
 This program was created to try to register continuously in order to be able to register on time for meetings with a limited number of participants.
 
 # file paths
-auto_subscribtion.py on /home/auto folder
+auto_subscribtion.py on /home/auto folder <br>
 auot_subscribtion.service on /etc/systemd/system folder
