@@ -1,0 +1,10 @@
+[Unit]
+Description = 42Buton
+
+[Service]
+ExecStart=/usr/bin/python3 /home/pier/auto/auto_subscribtion.py
+Restart=always
+User=pier
+
+[Install]
+WantedBy=multi-user.target
