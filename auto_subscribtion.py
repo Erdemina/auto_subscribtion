@@ -27,8 +27,8 @@ start_time = datetime.datetime.now()
 driver.get("LINK_OF_LOGIN_PAGE")
 username = driver.find_element(By.ID, 'ID_OF_USERNAME_OR_EMAIL_ELEMENT')
 password = driver.find_element(By.ID, 'ID_OF_PASSWORD_ELEMENT')
-username.send_keys("YOUR_USER_NAME")
-password.send_keys("YOUR_PASSWORD")
+username.send_keys("")
+password.send_keys("")
 driver.find_element(By.CSS_SELECTOR, 'input[type=submit]').click() 
 driver.get("LINK_OF_SUBSCRIBTION_BUTTONS_PAGE") #program will try the submit in this page
 
